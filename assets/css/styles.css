@@ -126,6 +126,9 @@ body.dark-theme {
     background-color: var(--container-color);
     box-shadow: 0 4px 20px hsla(207, 24%, 8%, .4);
 }
+.dark-theme .nav__logo img {
+    border-color: #1D1F20;
+}
 
 .dark-theme .home__shape-wawes,
 .dark-theme .home__shape-circle,
