@@ -225,9 +225,15 @@ body.dark-theme {
 
 
 .nav__logo {
-    font-family: var(--body-font);
-    font-weight: var(--font-medium);
-    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav__logo img {
+    width: 40px;
+    border-radius: 50%;
+    border: 10px solid #fcfcfd;
+    transform: scale(1.5);
 }
 
 .nav__toggle {
