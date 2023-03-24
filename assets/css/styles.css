@@ -235,7 +235,6 @@ body.dark-theme {
 .nav__logo img {
     width: 40px;
     border-radius: 50%;
-    border: 10px solid #fcfcfd;
     transform: scale(1.5);
 }
 
